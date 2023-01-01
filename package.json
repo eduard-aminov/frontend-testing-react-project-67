@@ -2,7 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/eduard-aminov/frontend-testing-react-project-67/workflows/hexlet-check/badge.svg)](https://github.com/eduard-aminov/frontend-testing-react-project-67/actions)",
-  "main": "index.js",
   "bin": {
     "page-loader": "bin/page-loader.js"
   },
@@ -36,5 +35,8 @@
     "jest-cli": "^29.0.1",
     "npm-check-updates": "^16.0.6",
     "simple-git-hooks": "^2.8.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.1"
   }
 }
